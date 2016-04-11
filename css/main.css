@@ -1,7 +1,43 @@
 #gatekeeper {
-  width: 80%;
+  background-image: url("../images/cheers.jpg");
+  background-size: cover;
+  width: 100%;
   height: 60%;
-  margin: 10% auto;
-  background-color: gray; }
+  margin-top: 10%;
+  display: none; }
+
+#box {
+  width: 100%;
+  height: 60%;
+  background-color: rgba(240, 240, 240, 0.8); }
+
+#box p {
+  text-align: center;
+  font-size: 30px;
+  color: #3e3e3e;
+  font-family: helvetica;
+  font-weight: 800;
+  margin-top: 40px; }
+
+#buttons {
+  width: 100%;
+  height: 50%;
+  margin-top: 15%; }
+
+#yes {
+  background-color: #3e3e3e;
+  color: white;
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  padding: 20px 20px; }
+
+#no {
+  background-color: #3e3e3e;
+  color: white;
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  padding: 20px 20px; }
 
 /*# sourceMappingURL=main.css.map */
