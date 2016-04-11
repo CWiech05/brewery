@@ -2,25 +2,29 @@
 #menu {
 	width: 200px;
 	height: 100%;
+	background-color: darkgray;
 
 	img {
-		margin-left: 40px;
 		margin-top: 20px;
 	}
 
 	nav {
+		font-family: $mainfont;
 
 		ul {
 			list-style-type: none;
 			text-align: left;
 			margin-top: 40px;
+			margin-left: 0;
 		}
 
 		li a {
 			display: inline-block;
-			font-size: 1.5em;
+			font-size: 1.8em;
 			text-transform: uppercase;
-			padding: 10px;
+			padding: 20px;
+			color: white;
+
 		}
 	}
 }
