@@ -15,6 +15,7 @@ window.addEventListener('resize', function() {
 
  $('#yes').on('click', function () {
     $('#gatekeeper').fadeOut(1000);
+    $('#entire').css({opacity: 1});
 });
 
 $(function(){  // $(document).ready shorthand
