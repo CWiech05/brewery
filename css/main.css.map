@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,WAAW;EACV,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,QAAQ;EAChB,gBAAgB,EAAE,IAAI",
+"sources": ["../sass/_gatekeeper.scss"],
 "names": [],
 "file": "main.css"
 }
