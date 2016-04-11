@@ -1,0 +1,44 @@
+// Navigation Bar Styles
+#menu {
+	width: 200px;
+	height: 100%;
+
+	img {
+		margin-left: 40px;
+		margin-top: 20px;
+	}
+
+	nav {
+
+		ul {
+			list-style-type: none;
+			text-align: left;
+			margin-top: 40px;
+		}
+
+		li a {
+			display: inline-block;
+			font-size: 1.5em;
+			text-transform: uppercase;
+			padding: 10px;
+		}
+	}
+}
+
+.top-bar {
+	height: 60px;
+
+	p {
+		padding-top: 10px;
+	}
+
+	ul {
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
