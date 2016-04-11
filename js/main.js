@@ -19,5 +19,13 @@ window.addEventListener('resize', function() {
 });
 
 $(function(){  // $(document).ready shorthand
-  $('#gatekeeper').fadeIn(3000);
+  $('#gatekeeper').fadeIn(2000);
 });
+
+
+$(document).ready(function(){
+  $('.your-class').slick({
+    'setting-name': 'setting-value'
+  });
+});
+	

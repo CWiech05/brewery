@@ -1,6 +1,15 @@
 #entire {
   opacity: 0.3; }
 
+.your-class div{
+	background-color: gray;
+	height: 600px;
+}
+
+.your-class img{
+	width: 100%;
+}
+
 #gatekeeper {
   background-image: url("../images/cheers.jpg");
   background-size: cover;
