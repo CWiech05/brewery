@@ -71,8 +71,10 @@
     font-size: 40px;
     line-height: 1;
 
-    opacity: .75;
-    color: white;
+    opacity: .85;
+    color: #3090c0;
+    background-color: white;
+    border-radius: 25px;
 
 }
 
@@ -89,6 +91,9 @@
 }
 .slick-prev:before
 {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     content: '<';
 }
 [dir='rtl'] .slick-prev:before
@@ -98,7 +103,7 @@
 
 .slick-next
 {
-    right: 25px;
+    right: 35px;
 }
 [dir='rtl'] .slick-next
 {
@@ -107,6 +112,9 @@
 }
 .slick-next:before
 {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     content: '>';
 }
 [dir='rtl'] .slick-next:before
