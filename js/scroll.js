@@ -106,7 +106,7 @@ smoothScroll.init({
     selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
     speed: 600, // Integer. How fast to complete the scroll in milliseconds
     easing: 'easeInQuad', // Easing pattern to use
-    offset: 40, // Integer. How far to offset the scrolling anchor location in pixels
+    offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
     updateURL: true, // Boolean. If true, update the URL hash on scroll
     callback: function(anchor, toggle) {} // Function to run after scrolling
 });
