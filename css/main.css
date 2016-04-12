@@ -1,30 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400,700);
 #entire {
-  opacity: 0.3; }
+  opacity: 0.1; }
 
 #gatekeeper {
   background-image: url("../images/cheers.jpg");
   background-size: cover;
-  width: 1000px;
+  width: 75%;
   height: 650px;
-  margin-top: 10%;
-  position: absolute;
+  left: 12.5%;
+  margin-top: 5%;
+  position: fixed;
   display: none;
   z-index: 100; }
 
 #box {
   width: 100%;
   height: 60%;
-  background-color: rgba(240, 240, 240, 0.8); }
+  background-color: rgba(200, 200, 200, 0.9); }
 
 #box p {
   text-align: center;
-  font-size: 30px;
-  color: #3e3e3e;
+  font-size: 40px;
+  color: #3090c0;
   font-family: helvetica;
-  font-weight: 800;
-  margin-top: 10%; }
+  font-weight: bold;
+  margin-top: 18%; }
 
 #buttons {
   width: 100%;
@@ -32,7 +33,7 @@
   margin-top: 15%; }
 
 #yes {
-  background-color: #3e3e3e;
+  background-color: #3090c0;
   color: white;
   display: inline-block;
   width: 49%;
@@ -40,12 +41,31 @@
   padding: 20px 20px; }
 
 #no {
-  background-color: #3e3e3e;
+  background-color: #3090c0;
   color: white;
   display: inline-block;
   width: 49%;
   text-align: center;
   padding: 20px 20px; }
+
+#yes:hover {
+  color: #3e3e3e; }
+
+#no:hover {
+  color: #3e3e3e; }
+
+#not21 {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  display: none;
+  position: fixed;
+  z-index: 10000; }
+
+#not21 h1 {
+  text-align: center;
+  color: white;
+  margin-top: 20%; }
 
 #menu {
   width: 200px;
@@ -66,6 +86,8 @@
       text-transform: uppercase;
       padding: 20px;
       color: white; }
+    #menu nav li a:hover {
+      color: #3090c0; }
 
 .top-bar {
   height: 60px; }
