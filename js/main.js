@@ -9,19 +9,21 @@ window.addEventListener('resize', function() {
 });
 
 
-// $('#yes').click(function(){
-// 	$('#gatekeeper').addClass('clicked', 1000);
-// });
+$('#no').on('click', function () {
+	$('#not21').css({display: 'block'})
+});
 
  $('#yes').on('click', function () {
     $('#gatekeeper').fadeOut(1000);
     $('#entire').css({opacity: 1});
 });
 
-$(function(){  // $(document).ready shorthand
+$(function(){  
   $('#gatekeeper').fadeIn(2000);
 });
 
+
+// INITIALIZES CAROUSEL //
 
 $(document).ready(function(){
   $('.your-class').slick({
