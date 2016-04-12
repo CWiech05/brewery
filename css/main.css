@@ -99,4 +99,11 @@ h4 {
 p {
   font-family: "Alegreya", serif; }
 
+#about {
+  width: 75%;
+  margin: 30 auto; }
+
+#brewery {
+  margin-top: 30px; }
+
 /*# sourceMappingURL=main.css.map */
