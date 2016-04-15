@@ -70,7 +70,8 @@
 #menu {
   width: 200px;
   height: 100%;
-  background-color: darkgray; }
+  background-color: white;
+  border-right: 2px solid #3e3e3e; }
   #menu img {
     margin-top: 20px; }
   #menu nav {
@@ -85,7 +86,7 @@
       font-size: 1.8em;
       text-transform: uppercase;
       padding: 2.5vh;
-      color: white; }
+      color: black; }
     #menu nav li a:hover {
       color: #3090c0; }
 
