@@ -49,10 +49,12 @@
   padding: 20px 20px; }
 
 #yes:hover {
-  color: #3e3e3e; }
+  color: #3e3e3e;
+  cursor: hand; }
 
 #no:hover {
-  color: #3e3e3e; }
+  color: #3e3e3e;
+  cursor: hand; }
 
 #not21 {
   width: 100%;
